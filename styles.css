@@ -1,0 +1,50 @@
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: white;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.middle {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.bottom {
+  align-self: flex-end;
+}
+
+.spade {
+  color: black;
+}
+
+.clover {
+  color: red;
+}
+
+.heart {
+  color: red;
+}
+
+
